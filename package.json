@@ -16,7 +16,9 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^6.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.1.0"
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.9"
   },
   "browserslist": [
     "last 1 version",
