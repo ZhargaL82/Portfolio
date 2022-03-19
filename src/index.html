@@ -113,7 +113,12 @@
         <div class="container">
             <div class="about__wrapper">
                 <div class="about__photo">
-                    <img src="img/main_photo.jpg" alt="photo">
+                    <picture>
+                        <source media="(max-width): 576px" srcset="img/main_photo-min.jpg">
+                        <source media="(min-width): 577px" srcset="img/main_photo.jpg">
+                        <img src="img/main_photo.jpg" alt="photo">
+                    </picture>
+                    <!-- <img srcset="img/main_photo" src="img/main_photo.jpg" alt="photo"> -->
                 </div>
                 <div class="about__descr">
                     <h2 class="title title_fz16 about__title">Про меня</h2>
